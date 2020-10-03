@@ -48,3 +48,7 @@ Auth::routes();
     Route::post('actualizarSesion', 'SesionController@actualizarSesion');
     Route::get('eliminarSesion/{id}', 'SesionController@eliminarSesion');
     Route::get('tutoriales','SesionController@tutoriales');
+    Route::get('tutorialesMaestros','SesionController@tutorialesProfesor');
+    Route::get('tutorialesCarrera','SesionController@tutorialesCarrera');
+    Route::get('tutorialesMaterias','SesionController@tutorialesMateria');
+    Route::get('tutorialesSesion','SesionController@tutorialesSesion');

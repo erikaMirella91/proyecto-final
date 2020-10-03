@@ -5,7 +5,7 @@
         <br><br><br>
         <div class="row">
         <a href="{{ url('crearMateria')}}" class="btn btn-warning" style="margin-left: 800px">Crear Materia</a>
-        <br><br><br><br><br><br>
+        <br><br>
             <table class="table table-bordered" style="margin-top: 30px">
                 <thead>
                     <tr>

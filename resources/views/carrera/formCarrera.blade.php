@@ -8,7 +8,7 @@
              {!! Form::open(['url'=>'guardarCarrera']) !!}
                 <div class="form-group">
                     {!! Form::label('Carrera', 'Nombre de la Carrera') !!}
-                    {!! Form::text('Carrera', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Carrera', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 {!! Form::submit('Guardar', ['class'=>'btn btn-warning']) !!}
             {!! Form::close() !!}

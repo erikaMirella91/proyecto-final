@@ -8,19 +8,19 @@
              {!! Form::open(['url'=>'guardarMateria']) !!}
                 <div class="form-group">
                     {!! Form::label('Materia', 'Nombre de la materia') !!}
-                    {!! Form::text('Materia', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Materia', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Clave', 'Clave de la materia') !!}
-                    {!! Form::text('Clave', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Clave', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Semestre', 'Elige el Semestre') !!}
-                    {!! Form::select('Semestre', $semestre,'', ['class'=>'form-control']) !!}
+                    {!! Form::select('Semestre', $semestre,'', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Profesor', 'Elige el Profesor') !!}
-                    <select name="Profesor" class="form-control">
+                    <select name="Profesor" class="form-control" required>
                         @foreach ($profesores as $profesor)
                             <option value="{{$profesor->codigo}}">{{$profesor->nombre}}</option> 
                         @endforeach 
@@ -28,7 +28,7 @@
                 </div>
                 <div class="form-group">
                     {!! Form::label('Carrera', 'Elige la Carrera') !!}
-                    <select name="Carrera" class="form-control">
+                    <select name="Carrera" class="form-control" required>
                         @foreach ($carreras as $carrera)
                             <option value="{{$carrera->id}}">{{$carrera->nombre}}</option> 
                         @endforeach

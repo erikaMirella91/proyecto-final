@@ -7,16 +7,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <h5>Crear carrera</h5>
-                <iframe width="560" height="315" src="assets\videos\Crear_carrera.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Crear_carrera.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {{-- <img class="d-block w-100" src="..." alt="First slide"> --}}
             </div>
             <div class="carousel-item">
                 <h5>Editar carrera</h5>
-                <iframe width="560" height="315" src="assets\videos\Editar_carrera.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Editar_carrera.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
               <h5>Eliminar carrera</h5>
-                <iframe width="560" height="315" src="assets\videos\Eliminar_Carrera.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Eliminar_Carrera.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button"  data-slide="prev">
@@ -33,16 +33,16 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <h5>Crear materia</h5>
-                <iframe width="560" height="315" src="assets\videos\Crear_materia.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Crear_materia.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {{-- <img class="d-block w-100" src="..." alt="First slide"> --}}
                 </div>
                 <div class="carousel-item">
                 <h5>Editar materia</h5>
-                <iframe width="560" height="315" src="assets\videos\Editar_materia.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Editar_materia.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="carousel-item">
                 <h5>Eliminar materia</h5>
-                <iframe width="560" height="315" src="assets\videos\Eliminar_materia.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Eliminar_materia.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControlsMateria" role="button" data-slide="prev">
@@ -64,11 +64,11 @@
             </div>
             <div class="carousel-item">
                 <h5>Editar carrera</h5>
-                <iframe width="560" height="315" src="assets\videos\Editar_profesor.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Editar_profesor.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
               <h5>Eliminar carrera</h5>
-                <iframe width="560" height="315" src="assets\videos\Eliminar_profesor.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Eliminar_profesor.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControlsProfesor" role="button"  data-slide="prev">
@@ -90,11 +90,11 @@
             </div>
             <div class="carousel-item">
                 <h5>Editar Sesión</h5>
-                <iframe width="560" height="315" src="assets\videos\Editar_sesion.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Editar_sesion.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
               <h5>Eliminar Sesión</h5>
-                <iframe width="560" height="315" src="assets\videos\Eliminar_sesión.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="assets\videos\Eliminar_sesión.mp4" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControlsSesion" role="button"  data-slide="prev">

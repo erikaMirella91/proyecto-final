@@ -8,24 +8,24 @@
              {!! Form::open(['url'=>'guardarProfesor']) !!}
                 <div class="form-group">
                     {!! Form::label('Nombre', 'Nombre del profesor') !!}
-                    {!! Form::text('Nombre', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Nombre', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('AP', 'A. Paterno') !!}
-                    {!! Form::text('AP', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('AP', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('AM', 'A. Materno') !!}
-                    {!! Form::text('AM', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('AM', '', ['class'=>'form-control', 'required' => 'required']) !!}
                    
                 </div>
                 <div class="form-group">
                     {!! Form::label('Email', 'Email') !!}
-                    {!! Form::text('Email', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Email', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Titulo', 'Título del profesor') !!}
-                    {!! Form::text('Titulo', '', ['class'=>'form-control']) !!}
+                    {!! Form::text('Titulo', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 {!! Form::submit('Guardar', ['class'=>'btn btn-warning']) !!}
             {!! Form::close() !!}

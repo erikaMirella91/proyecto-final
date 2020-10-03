@@ -20,15 +20,30 @@
                                 <a class="nav-link" href="{{ url('indexCarrera') }}">Carreras</a>
                                 <a class="nav-link" href="{{ url('indexMateria')}}">Materias</a>
                                 <a class="nav-link" href="{{ url('indexSesion')}}">Sesión</a>
+
                             </nav>
                         </div>
                     </nav>
                 </div>
-                <a class="nav-link collapsed" href="{{url('tutoriales')}}"  aria-expanded="false" >
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePagesTutorial" aria-expanded="false" aria-controls="collapsePages">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                        Tutorial
+                   Tutoriales
                     <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </a>
+                <div class="collapse" id="collapsePagesTutorial" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                        <div class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError" >
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="{{ url('tutorialesMaestros') }}">Profesores</a>
+                                <a class="nav-link" href="{{ url('tutorialesCarrera') }}">Carreras</a>
+                                <a class="nav-link" href="{{ url('tutorialesMaterias')}}">Materias</a>
+                                <a class="nav-link" href="{{ url('tutorialesSesion')}}">Sesión</a>
+                                
+                            </nav>
+                        </div>
+                    </nav>
+                </div>
+                
                 {{-- <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                         <div class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError" >

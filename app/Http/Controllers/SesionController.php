@@ -70,4 +70,16 @@ class SesionController extends Controller
     public function tutoriales(){
         return view('tutoriales.index');
     }
+    public function tutorialesProfesor(){
+        return view('tutoriales.profesor');
+    }
+    public function tutorialesCarrera(){
+        return view('tutoriales.carrera');
+    }
+    public function tutorialesMateria(){
+        return view('tutoriales.materias');
+    }
+    public function tutorialesSesion(){
+        return view('tutoriales.sesion');
+    }
 }
