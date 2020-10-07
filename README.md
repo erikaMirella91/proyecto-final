@@ -15,10 +15,11 @@ Php 7.2.29
 2) Una vez que hayamos descargado el proyecto, lo abrimos dentro de la misma aplicación.
 3) En seguida, corremos el comando: composer update
 4) Mientras se actualiza el proyecto, iniciamos nuestra aplicación XAMPP y corremos el servicio de apache y MySql.
-5) Abrimos el navegador de preferencia e ingresamos a la ruta https://localhost/phpmyadmin/
-6) Una vez que ingresamos generamos una base de datos llamada "maestros"
-7) Volvemos a nuestro VSC y ejecutamos php artisan migrate para generar las tablas que tiene nuestro proyecto.
-8) Terminadas las migraciones ejecutamos php artisan serve
-9) Ahora volvemos a nuestro navegador y colocamos 127.0.0.1:8000/ que es la ruta por default que nos levanta el servidor.
-10) Y listo!
+5) En la consola ejecutar los siguentes comandos $ cp .env.example .env y despues $php artisan key:generate
+6) Abrimos el navegador de preferencia e ingresamos a la ruta https://localhost/phpmyadmin/
+7) Una vez que ingresamos generamos una base de datos llamada "maestros"
+8) Volvemos a nuestro VSC y ejecutamos php artisan migrate para generar las tablas que tiene nuestro proyecto.
+9) Terminadas las migraciones ejecutamos php artisan serve
+10) Ahora volvemos a nuestro navegador y colocamos 127.0.0.1:8000/ que es la ruta por default que nos levanta el servidor.
+11) Y listo!
 
