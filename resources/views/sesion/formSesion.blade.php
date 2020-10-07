@@ -12,11 +12,11 @@
                 </div>
                 <div class="form-group">
                     {!! Form::label('Planeacion', 'Planeacion') !!}
-                    {!! Form::text('Planeacion', '', ['class'=>'form-control', 'required' => 'required']) !!}
+                    {!! Form::textarea('Planeacion', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Sugerencias', 'Sugerencias') !!}
-                    {!! Form::text('Sugerencias', '', ['class'=>'form-control', 'required' => 'required']) !!}
+                    {!! Form::textarea('Sugerencias', '', ['class'=>'form-control', 'required' => 'required']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('Material', 'Material') !!}
